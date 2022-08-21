@@ -7,7 +7,9 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-//https://www.hackerrank.com/challenges/encryption/problem
+/***
+* <a href="https://www.hackerrank.com/challenges/encryption/problem">Encryption </a>
+ */
 public class Encryption {
 
 
@@ -18,7 +20,7 @@ public class Encryption {
      * The function accepts STRING s as parameter.
      */
 
-    public static String encryption(String s) throws Exception {
+    public static String encryption(String s) {
         //Remove spaces and find the lenght
         System.out.print("Size before trim : " + s.length());
         String trimmedString = s.replace("/s", "");
